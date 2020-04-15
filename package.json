@@ -1,0 +1,41 @@
+{
+  "name": "bitcoincli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "btc": "./bin/btc.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelleonmarti/bitcoinCLI.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "cli",
+    "nodejs"
+  ],
+  "author": "miguelleonmarti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelleonmarti/bitcoinCLI/issues"
+  },
+  "homepage": "https://github.com/miguelleonmarti/bitcoinCLI#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "elliptic": "^6.5.2",
+    "figlet": "^1.3.0",
+    "inquirer": "^7.1.0",
+    "opn": "^6.0.0",
+    "sha256": "^0.2.0",
+    "update-notifier": "^4.1.0",
+    "uuid": "^7.0.3"
+  }
+}
