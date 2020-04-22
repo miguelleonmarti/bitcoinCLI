@@ -144,6 +144,8 @@ CLI (Command Line Interface) para realizar peticiones HTTP a los nodos de una re
 
     ```npm install```
 
-[npm-url]: https://www.npmjs.com/package/@miguelleonmarti/bitcoincli
-[downloads-url]: https://npmcharts.com/compare/@miguelleonmarti/bitcoincli?interval=30
+[npm-image]: https://img.shields.io/npm/v/@miguelleonmarti/bitcoincli.svg
+[npm-url]: https://npmjs.org/package/@miguelleonmarti/bitcoincli
+[downloads-image]: https://img.shields.io/npm/dm/@miguelleonmarti/bitcoincli.svg
+[downloads-url]: https://npmcharts.com/compare/@miguelleonmarti/bitcoincli?minimal=true
 
