@@ -1,6 +1,6 @@
 {
-  "name": "bitcoincli",
-  "version": "1.1.0",
+  "name": "@miguelleonmarti/bitcoincli",
+  "version": "1.2.0",
   "description": "A blockchain cli example",
   "bin": {
     "btc": "./bin/btc.js"
