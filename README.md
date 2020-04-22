@@ -1,5 +1,18 @@
 # Blockchain CLI
 
+```
+ ____         __
+/\  _`\    __/\ \__                __
+\ \ \L\ \ /\_\ \ ,_\   ___    ___ /\_\    ___
+ \ \  _ <'\/\ \ \ \/  /'___\ / __`\/\ \ /' _ `\
+  \ \ \L\ \\ \ \ \ \_/\ \__//\ \L\ \ \ \/\ \/\ \
+   \ \____/ \ \_\ \__\ \____\ \____/\ \_\ \_\ \_\  __  __  __
+    \/___/   \/_/\/__/\/____/\/___/  \/_/\/_/\/_/ /_/ /_/ /_/
+```
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
 CLI (Command Line Interface) para realizar peticiones HTTP a los nodos de una red descentralizada (blockchain).
 
 ## Índice
@@ -14,17 +27,19 @@ CLI (Command Line Interface) para realizar peticiones HTTP a los nodos de una re
         - [`address`](#address)
         - [`block`](#block)
 3. [Librerías utilizadas](#librerías-utilizadas)
+4. [Setup del proyecto](#setup-del-proyecto)
+
 
 ## Estructura del proyecto
 
     .
     ├── node_modules                        # código de las librerías descargadas
-    ├── bin                                 # 
+    ├── bin                                 
     │   ├── btc-blockchain.js               # controlador del comando blockchain
     │   ├── btc-search.js                   # controlador del comando search
     |   ├── btc-transaction.js              # controlador del comando transaction
     │   └── btc.js                          # controlador del comando principal
-    ├── commmands                           # 
+    ├── commmands                            
     │   ├── blockchain.js                   # lógica del comando blockchain
     │   ├── mine.js                         # lógica del comando mine
     |   ├── search.js                       # lógica del comando search
@@ -112,11 +127,6 @@ CLI (Command Line Interface) para realizar peticiones HTTP a los nodos de una re
   - Instalación: `npm install --save inquirer`
   - Página principal: https://github.com/SBoudrias/Inquirer.js
 
-- ## **opn**
-  - Descripción: 
-  - Instalación: 
-  - Página principal:
-
 - ## **update-notifier**
   - Descripción: Notifica de las actualizaciones de la aplicación CLI
   - Instalación: `npm install --save update-notifier`
@@ -133,4 +143,7 @@ CLI (Command Line Interface) para realizar peticiones HTTP a los nodos de una re
 2. Instalar las dependecias: 
 
     ```npm install```
+
+[npm-url]: https://www.npmjs.com/package/@miguelleonmarti/bitcoincli
+[downloads-url]: https://npmcharts.com/compare/@miguelleonmarti/bitcoincli?interval=30
 
