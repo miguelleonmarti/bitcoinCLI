@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/miguelleonmarti/bitcoinCLI#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
     "elliptic": "^6.5.2",
